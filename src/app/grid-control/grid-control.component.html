@@ -1,0 +1,14 @@
+<div class="grid-control-container">
+  <p>
+    <label for="speed">Ausbreitungsgeschwindigkeit [km/h]</label><br />
+    <input id="speed" type="number" name="speed" value="20" [ngModel]="getSpeed()" (ngModelChange)="setSpeed($event)" />
+  </p>
+  <p>
+    <label for="interval">Zeitraster [min]</label><br />
+    <input id="interval" type="number" name="interval" value="2" [ngModel]="getInterval()" (ngModelChange)="setInterval($event)" />
+  </p>
+  <p>
+    <label for="maxtime">Maximalzeit [min]</label><br />
+    <input id="maxtime" type="number" name="maxtime" value="20" [ngModel]="getMaxTime()" (ngModelChange)="setMaxTime($event)" />
+  </p>
+</div>
