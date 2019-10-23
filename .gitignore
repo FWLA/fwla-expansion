@@ -44,3 +44,7 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+#electron build
+fwla-expansion-win32-x64/
+fwla-expansion-win32-x64.zip
